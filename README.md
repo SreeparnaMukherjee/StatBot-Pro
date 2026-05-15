@@ -269,14 +269,6 @@ docker build -t statbot-pro .
 docker run -p 8080:8000 -v $(pwd)/data:/app/workspace statbot-pro
 ```
 
-### Security Considerations
-- Run behind a reverse proxy (nginx/Apache)
-- Enable HTTPS with SSL certificates
-- Implement rate limiting
-- Add authentication if needed
-- Monitor resource usage
-- Regular security updates
-
 ## API Reference
 
 ### Endpoints
